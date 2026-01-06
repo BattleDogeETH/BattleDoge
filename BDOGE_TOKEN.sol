@@ -171,6 +171,8 @@ abstract contract ERC20 is Context, IERC20, IERC20Metadata, IERC20Errors {
 
     /**
      * @inheritdoc IERC20Metadata
+     */
+     /*
      * OpenZeppelin default is 18, matching the common ERC-20 convention.
      */
     function decimals() public view virtual returns (uint8) {
@@ -189,6 +191,8 @@ abstract contract ERC20 is Context, IERC20, IERC20Metadata, IERC20Errors {
 
     /**
      * @inheritdoc IERC20
+     */
+     /*
      * Moves `value` tokens from caller to `to`.
      * Returns true on success per ERC-20 convention.
      */
@@ -205,6 +209,8 @@ abstract contract ERC20 is Context, IERC20, IERC20Metadata, IERC20Errors {
 
     /**
      * @inheritdoc IERC20
+     */
+     /*
      * Sets allowance for `spender` to spend caller's tokens.
      */
     function approve(address spender, uint256 value) public virtual returns (bool) {
@@ -215,6 +221,8 @@ abstract contract ERC20 is Context, IERC20, IERC20Metadata, IERC20Errors {
 
     /**
      * @inheritdoc IERC20
+     */
+     /*
      * Spends allowance from `from` by caller (spender), then transfers to `to`.
      */
     function transferFrom(address from, address to, uint256 value) public virtual returns (bool) {
