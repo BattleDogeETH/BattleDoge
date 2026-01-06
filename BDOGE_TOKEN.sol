@@ -36,7 +36,7 @@ error ETHNotAccepted();
 /**
  * @dev Provides information about the current execution context (msg.sender, msg.data).
  * In meta-transaction systems, msg.sender may differ from the account paying gas.
- * Here we keep it standard, but inheriting this matches OpenZeppelin’s structure.
+ * Here we keep it standard, but inheriting this matches OpenZeppelin's structure.
  */
 abstract contract Context {
     /// @dev Returns the sender of the transaction (or the relayer in meta-tx contexts).
@@ -51,7 +51,7 @@ abstract contract Context {
 
     /**
      * @dev Used by some advanced meta-transaction patterns in OZ to strip context suffixes.
-     * Default is zero; retained for compatibility with OZ’s internal patterns.
+     * Default is zero; retained for compatibility with OZ's internal patterns.
      */
     function _contextSuffixLength() internal view virtual returns (uint256) {
         return 0;
