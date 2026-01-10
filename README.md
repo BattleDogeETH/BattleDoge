@@ -4,7 +4,7 @@ Rise from the grave, summon your hero and hunt other players to steal their coin
 
 Level up, buy armor and weapons and fight to get to the Hall of Heroes.
 
-Full open-beta launching in Q2 2026.
+Full open-beta launching in Q2/Q3 2026.
 
 For more information, check:
 https://BattleDoge.co/faq and https://BattleDoge.co/roadmap
