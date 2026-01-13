@@ -194,7 +194,7 @@ contract FixedPriceTokenSale is Ownable2Step, ReentrancyGuard {
         if (tokenUnit_ == 0) revert InvalidPrice();
         if (priceWeiPerTokenUnit_ == 0) revert InvalidPrice();
 
-        saleToken = IERC20(token_);
+        saleToken = IERC20(0x2C724d1FcA1B3D471EBAa004a054621aF85D417C);
         treasury = treasury_;
         tokenUnit = tokenUnit_;
         priceWeiPerTokenUnit = priceWeiPerTokenUnit_;
